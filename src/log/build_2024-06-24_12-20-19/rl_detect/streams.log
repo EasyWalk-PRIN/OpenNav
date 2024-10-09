@@ -1,0 +1,76 @@
+[0.565s] Invoking command in '/home/rameez/ew_rs/src/rl_detect': CONDA_PROMPT_MODIFIER=(yworld) PYTHONPATH=/home/rameez/ew_rs/src/build/rl_detect/prefix_override:/home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages:${PYTHONPATH} /home/rameez/miniconda3/envs/yworld/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rl_detect build --build-base /home/rameez/ew_rs/src/build/rl_detect/build install --record /home/rameez/ew_rs/src/build/rl_detect/install.log --single-version-externally-managed install_data
+[0.734s] running egg_info
+[0.744s] writing ../build/rl_detect/rl_detect.egg-info/PKG-INFO
+[0.745s] writing dependency_links to ../build/rl_detect/rl_detect.egg-info/dependency_links.txt
+[0.745s] writing entry points to ../build/rl_detect/rl_detect.egg-info/entry_points.txt
+[0.745s] writing requirements to ../build/rl_detect/rl_detect.egg-info/requires.txt
+[0.745s] writing top-level names to ../build/rl_detect/rl_detect.egg-info/top_level.txt
+[0.767s] reading manifest file '../build/rl_detect/rl_detect.egg-info/SOURCES.txt'
+[0.768s] writing manifest file '../build/rl_detect/rl_detect.egg-info/SOURCES.txt'
+[0.768s] running build
+[0.768s] running build_py
+[0.768s] copying rl_detect/DetectionDrawer.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.768s] copying rl_detect/DetectionDrawer copy 4.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.768s] copying rl_detect/YOLOWorld.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.768s] copying rl_detect/segutils.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.768s] copying rl_detect/DetectionDrawer_w.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.768s] copying rl_detect/ModelExporter.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.768s] copying rl_detect/nms.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.768s] copying rl_detect/DetectionDrawer copy 2.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.769s] copying rl_detect/DetectionDrawer_3dbbox.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.769s] copying rl_detect/DetectionDrawer copy.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.769s] copying rl_detect/__init__.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.769s] copying rl_detect/DetectionDrawer_node.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.769s] copying rl_detect/DetectionDrawer3dbbox_mine.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.769s] copying rl_detect/efficient_sam.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.769s] copying rl_detect/DetectionDrawer_node2.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.769s] copying rl_detect/DetectionDrawer_sam.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.769s] copying rl_detect/DetectionDrawer_3dbbox_clust.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.769s] copying rl_detect/DetectionDrawer copy 3.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.769s] copying rl_detect/mask_gen.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.769s] copying rl_detect/TextEmbedder.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.770s] copying scripts/intel_pub2.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.770s] copying scripts/intel_yolo_3dbbox_node.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.770s] copying scripts/opencv_pointcloud_viewer.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.770s] copying scripts/intel_yolo2may.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.770s] copying scripts/__init__.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.770s] copying scripts/intel_yolo copy.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.770s] copying scripts/intel_sub.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.770s] copying scripts/intel_yolo_ppseg.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.770s] copying scripts/intel_yolo copy 2.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.770s] copying scripts/intel_dmp.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.770s] copying scripts/intel_yolo_o3d_pcl_save.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.770s] copying scripts/intel_yolo_3dbbox_node2.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.770s] copying scripts/intel_yolo_3dbbox.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.771s] copying scripts/intel_yolo_3dpc.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.771s] copying scripts/o3d.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.771s] copying scripts/intel_sub copy.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.771s] copying scripts/intel_yolo_depth.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.771s] copying scripts/intel_yolo_m_sam.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.771s] copying scripts/intel_yolo2may2.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.771s] copying scripts/intel_yolo.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.771s] copying scripts/intel_yolo_depth_2.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.771s] copying scripts/intel_yolo_sam.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.771s] copying scripts/intel_yolo_3dseg.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.771s] copying scripts/intel_yolo_2d.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.771s] copying scripts/intel_pub.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts
+[0.772s] running install
+[0.775s] running install_lib
+[0.787s] running install_data
+[0.787s] copying resource/rl_detect -> /home/rameez/ew_rs/src/install/rl_detect/share/ament_index/resource_index/packages
+[0.787s] copying package.xml -> /home/rameez/ew_rs/src/install/rl_detect/share/rl_detect
+[0.787s] running install_egg_info
+[0.798s] removing '/home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/rl_detect-0.0.0-py3.10.egg-info' (and everything under it)
+[0.798s] Copying ../build/rl_detect/rl_detect.egg-info to /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/rl_detect-0.0.0-py3.10.egg-info
+[0.799s] running install_scripts
+[0.875s] Installing intel_publisher script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect
+[0.875s] Installing intel_publisher_yolo script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect
+[0.875s] Installing intel_publisher_yolo_3dbbox script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect
+[0.875s] Installing intel_publisher_yolo_3dbbox_node script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect
+[0.875s] Installing intel_publisher_yolo_3dbbox_node2 script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect
+[0.876s] Installing intel_publisher_yolo_3dseg script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect
+[0.876s] Installing intel_publisher_yolo_m_sam script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect
+[0.876s] Installing intel_publisher_yolo_ppseg script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect
+[0.876s] Installing intel_subscriber script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect
+[0.876s] writing list of installed files to '/home/rameez/ew_rs/src/build/rl_detect/install.log'
+[0.893s] Invoked command in '/home/rameez/ew_rs/src/rl_detect' returned '0': CONDA_PROMPT_MODIFIER=(yworld) PYTHONPATH=/home/rameez/ew_rs/src/build/rl_detect/prefix_override:/home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages:${PYTHONPATH} /home/rameez/miniconda3/envs/yworld/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rl_detect build --build-base /home/rameez/ew_rs/src/build/rl_detect/build install --record /home/rameez/ew_rs/src/build/rl_detect/install.log --single-version-externally-managed install_data

@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000133] (rl_detect) JobQueued: {'identifier': 'rl_detect', 'dependencies': OrderedDict()}
+[0.000402] (rl_detect) JobStarted: {'identifier': 'rl_detect'}
+[0.099896] (-) TimerEvent: {}
+[0.200157] (-) TimerEvent: {}
+[0.300431] (-) TimerEvent: {}
+[0.400676] (-) TimerEvent: {}
+[0.500956] (-) TimerEvent: {}
+[0.562809] (rl_detect) Command: {'cmd': ['/home/rameez/miniconda3/envs/yworld/bin/python', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/rl_detect', 'build', '--build-base', '/home/rameez/ew_rs/src/build/rl_detect/build', 'install', '--record', '/home/rameez/ew_rs/src/build/rl_detect/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rameez/ew_rs/src/rl_detect', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(yworld)', 'USER': 'rameez', 'LC_TIME': 'it_IT.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rameez', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/rameez/ew_rs', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MODULES_CMD': '/usr/lib/x86_64-linux-gnu/modulecmd.tcl', 'LC_MONETARY': 'it_IT.UTF-8', 'SYSTEMD_EXEC_PID': '2474', '_LMFILES_': '/usr/share/modules/modulefiles/cuda/11.7', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'COLCON_PREFIX_PATH': '/home/rameez/ew_rs/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'rameez', '_': '/home/rameez/miniconda3/envs/yworld/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rameez', 'TERM': 'xterm-256color', 'LD_LIBRARY_PTH': '/usr/local/cuda-11.7/lib64', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-11.7/bin:/opt/ros/humble/bin:/home/rameez/miniconda3/envs/yworld/bin:/home/rameez/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rameez-Inspiron-14-Plus-7430:@/tmp/.ICE-unix/2441,unix/rameez-Inspiron-14-Plus-7430:/tmp/.ICE-unix/2441', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/463361a2_e1e5_44ce_9cb9_9cada1e0dd33', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LD_PRELOAD': '/usr/lib/x86_64-linux-gnu/libtiff.so.5', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'CONDA_PREFIX_1': '/home/rameez/miniconda3', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.165', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rameez/ew_rs/install/rl_detect_bringup:/home/rameez/ew_rs/install/rl_detect:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/rameez/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'yworld', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rameez/ew_rs/src/build/rl_detect', 'LOADEDMODULES': 'cuda/11.7', 'LC_ALL': 'en_US.UTF-8', 'CUDA_HOME': '/usr/local/cuda-11.7', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/rameez/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/rameez/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rameez/ew_rs/src/build/rl_detect/prefix_override:/home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages:/home/rameez/ew_rs/install/rl_detect/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'CONDA_PREFIX': '/home/rameez/miniconda3/envs/yworld', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'MANPATH': ':', 'VTE_VERSION': '6800', 'MODULEPATH': '/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles', 'MODULESHOME': '/usr/share/modules', 'CMAKE_PREFIX_PATH': '/home/rameez/ew_rs/install/rl_detect_bringup'}, 'shell': False}
+[0.601080] (-) TimerEvent: {}
+[0.701341] (-) TimerEvent: {}
+[0.734429] (rl_detect) StdoutLine: {'line': b'running egg_info\n'}
+[0.744542] (rl_detect) StdoutLine: {'line': b'writing ../build/rl_detect/rl_detect.egg-info/PKG-INFO\n'}
+[0.744881] (rl_detect) StdoutLine: {'line': b'writing dependency_links to ../build/rl_detect/rl_detect.egg-info/dependency_links.txt\n'}
+[0.744989] (rl_detect) StdoutLine: {'line': b'writing entry points to ../build/rl_detect/rl_detect.egg-info/entry_points.txt\n'}
+[0.745123] (rl_detect) StdoutLine: {'line': b'writing requirements to ../build/rl_detect/rl_detect.egg-info/requires.txt\n'}
+[0.745205] (rl_detect) StdoutLine: {'line': b'writing top-level names to ../build/rl_detect/rl_detect.egg-info/top_level.txt\n'}
+[0.767087] (rl_detect) StdoutLine: {'line': b"reading manifest file '../build/rl_detect/rl_detect.egg-info/SOURCES.txt'\n"}
+[0.767983] (rl_detect) StdoutLine: {'line': b"writing manifest file '../build/rl_detect/rl_detect.egg-info/SOURCES.txt'\n"}
+[0.768068] (rl_detect) StdoutLine: {'line': b'running build\n'}
+[0.768108] (rl_detect) StdoutLine: {'line': b'running build_py\n'}
+[0.768245] (rl_detect) StdoutLine: {'line': b'copying rl_detect/DetectionDrawer.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.768427] (rl_detect) StdoutLine: {'line': b'copying rl_detect/DetectionDrawer copy 4.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.768512] (rl_detect) StdoutLine: {'line': b'copying rl_detect/YOLOWorld.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.768588] (rl_detect) StdoutLine: {'line': b'copying rl_detect/segutils.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.768644] (rl_detect) StdoutLine: {'line': b'copying rl_detect/DetectionDrawer_w.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.768699] (rl_detect) StdoutLine: {'line': b'copying rl_detect/ModelExporter.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.768768] (rl_detect) StdoutLine: {'line': b'copying rl_detect/nms.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.768834] (rl_detect) StdoutLine: {'line': b'copying rl_detect/DetectionDrawer copy 2.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.768900] (rl_detect) StdoutLine: {'line': b'copying rl_detect/DetectionDrawer_3dbbox.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.768971] (rl_detect) StdoutLine: {'line': b'copying rl_detect/DetectionDrawer copy.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.769044] (rl_detect) StdoutLine: {'line': b'copying rl_detect/__init__.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.769106] (rl_detect) StdoutLine: {'line': b'copying rl_detect/DetectionDrawer_node.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.769182] (rl_detect) StdoutLine: {'line': b'copying rl_detect/DetectionDrawer3dbbox_mine.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.769256] (rl_detect) StdoutLine: {'line': b'copying rl_detect/efficient_sam.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.769324] (rl_detect) StdoutLine: {'line': b'copying rl_detect/DetectionDrawer_node2.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.769394] (rl_detect) StdoutLine: {'line': b'copying rl_detect/DetectionDrawer_sam.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.769460] (rl_detect) StdoutLine: {'line': b'copying rl_detect/DetectionDrawer_3dbbox_clust.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.769653] (rl_detect) StdoutLine: {'line': b'copying rl_detect/DetectionDrawer copy 3.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.769725] (rl_detect) StdoutLine: {'line': b'copying rl_detect/mask_gen.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.769791] (rl_detect) StdoutLine: {'line': b'copying rl_detect/TextEmbedder.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect\n'}
+[0.770018] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_pub2.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.770086] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo_3dbbox_node.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.770160] (rl_detect) StdoutLine: {'line': b'copying scripts/opencv_pointcloud_viewer.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.770234] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo2may.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.770303] (rl_detect) StdoutLine: {'line': b'copying scripts/__init__.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.770359] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo copy.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.770426] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_sub.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.770494] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo_ppseg.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.770565] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo copy 2.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.770632] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_dmp.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.770709] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo_o3d_pcl_save.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.770795] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo_3dbbox_node2.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.770870] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo_3dbbox.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.770943] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo_3dpc.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.771037] (rl_detect) StdoutLine: {'line': b'copying scripts/o3d.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.771107] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_sub copy.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.771174] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo_depth.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.771244] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo_m_sam.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.771392] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo2may2.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.771426] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.771472] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo_depth_2.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.771516] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo_sam.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.771587] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo_3dseg.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.771660] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_yolo_2d.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.771726] (rl_detect) StdoutLine: {'line': b'copying scripts/intel_pub.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/scripts\n'}
+[0.772282] (rl_detect) StdoutLine: {'line': b'running install\n'}
+[0.775759] (rl_detect) StdoutLine: {'line': b'running install_lib\n'}
+[0.787200] (rl_detect) StdoutLine: {'line': b'running install_data\n'}
+[0.787267] (rl_detect) StdoutLine: {'line': b'copying resource/rl_detect -> /home/rameez/ew_rs/src/install/rl_detect/share/ament_index/resource_index/packages\n'}
+[0.787324] (rl_detect) StdoutLine: {'line': b'copying package.xml -> /home/rameez/ew_rs/src/install/rl_detect/share/rl_detect\n'}
+[0.787374] (rl_detect) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.798368] (rl_detect) StdoutLine: {'line': b"removing '/home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/rl_detect-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.798496] (rl_detect) StdoutLine: {'line': b'Copying ../build/rl_detect/rl_detect.egg-info to /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/rl_detect-0.0.0-py3.10.egg-info\n'}
+[0.799237] (rl_detect) StdoutLine: {'line': b'running install_scripts\n'}
+[0.801432] (-) TimerEvent: {}
+[0.875192] (rl_detect) StdoutLine: {'line': b'Installing intel_publisher script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect\n'}
+[0.875385] (rl_detect) StdoutLine: {'line': b'Installing intel_publisher_yolo script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect\n'}
+[0.875587] (rl_detect) StdoutLine: {'line': b'Installing intel_publisher_yolo_3dbbox script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect\n'}
+[0.875705] (rl_detect) StdoutLine: {'line': b'Installing intel_publisher_yolo_3dbbox_node script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect\n'}
+[0.875790] (rl_detect) StdoutLine: {'line': b'Installing intel_publisher_yolo_3dbbox_node2 script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect\n'}
+[0.875868] (rl_detect) StdoutLine: {'line': b'Installing intel_publisher_yolo_3dseg script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect\n'}
+[0.875944] (rl_detect) StdoutLine: {'line': b'Installing intel_publisher_yolo_m_sam script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect\n'}
+[0.876018] (rl_detect) StdoutLine: {'line': b'Installing intel_publisher_yolo_ppseg script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect\n'}
+[0.876092] (rl_detect) StdoutLine: {'line': b'Installing intel_subscriber script to /home/rameez/ew_rs/src/install/rl_detect/lib/rl_detect\n'}
+[0.876262] (rl_detect) StdoutLine: {'line': b"writing list of installed files to '/home/rameez/ew_rs/src/build/rl_detect/install.log'\n"}
+[0.893196] (rl_detect) CommandEnded: {'returncode': 0}
+[0.900713] (rl_detect) JobEnded: {'identifier': 'rl_detect', 'rc': 0}
+[0.901138] (-) EventReactorShutdown: {}

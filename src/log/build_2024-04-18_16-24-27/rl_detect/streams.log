@@ -1,0 +1,16 @@
+[0.377s] Invoking command in '/home/rameez/ew_rs/src/rl_detect': CONDA_PROMPT_MODIFIER=(yworld) PYTHONPATH=/home/rameez/ew_rs/src/build/rl_detect/prefix_override:/home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages:${PYTHONPATH} /home/rameez/miniconda3/envs/yworld/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rl_detect build --build-base /home/rameez/ew_rs/src/build/rl_detect/build install --record /home/rameez/ew_rs/src/build/rl_detect/install.log --single-version-externally-managed install_data
+[0.519s] running egg_info
+[0.521s] writing manifest file '../build/rl_detect/rl_detect.egg-info/SOURCES.txt'
+[0.521s] running build
+[0.521s] running build_py
+[0.521s] copying rl_detect/intel_yolo.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.522s] running install
+[0.523s] running install_lib
+[0.524s] byte-compiling /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/rl_detect/intel_yolo.py to intel_yolo.cpython-310.pyc
+[0.524s] running install_data
+[0.524s] running install_egg_info
+[0.525s] removing '/home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/rl_detect-0.0.0-py3.10.egg-info' (and everything under it)
+[0.525s] Copying ../build/rl_detect/rl_detect.egg-info to /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/rl_detect-0.0.0-py3.10.egg-info
+[0.526s] running install_scripts
+[0.539s] writing list of installed files to '/home/rameez/ew_rs/src/build/rl_detect/install.log'
+[0.554s] Invoked command in '/home/rameez/ew_rs/src/rl_detect' returned '0': CONDA_PROMPT_MODIFIER=(yworld) PYTHONPATH=/home/rameez/ew_rs/src/build/rl_detect/prefix_override:/home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages:${PYTHONPATH} /home/rameez/miniconda3/envs/yworld/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rl_detect build --build-base /home/rameez/ew_rs/src/build/rl_detect/build install --record /home/rameez/ew_rs/src/build/rl_detect/install.log --single-version-externally-managed install_data
