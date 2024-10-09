@@ -1,0 +1,10 @@
+[console_scripts]
+intel_publisher = scripts.intel_pub:main
+intel_publisher_yolo = scripts.intel_yolo:main
+intel_publisher_yolo_3dbbox = scripts.intel_yolo_3dbbox:main
+intel_publisher_yolo_3dbbox_node = scripts.intel_yolo_3dbbox_node:main
+intel_publisher_yolo_3dbbox_node2 = scripts.intel_yolo_3dbbox_node2:main
+intel_publisher_yolo_3dseg = scripts.intel_yolo_3dseg:main
+intel_publisher_yolo_m_sam = scripts.intel_yolo_m_sam:main
+intel_publisher_yolo_ppseg = scripts.intel_yolo_ppseg:main
+intel_subscriber = scripts.intel_sub:main

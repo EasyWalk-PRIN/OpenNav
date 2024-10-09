@@ -1,0 +1,54 @@
+[0.560s] Invoking command in '/home/rameez/ew_rs/src/rl_detect': CONDA_PROMPT_MODIFIER=(yworld) PYTHONPATH=/home/rameez/ew_rs/src/build/rl_detect/prefix_override:/home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages:${PYTHONPATH} /home/rameez/miniconda3/envs/yworld/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rl_detect build --build-base /home/rameez/ew_rs/src/build/rl_detect/build install --record /home/rameez/ew_rs/src/build/rl_detect/install.log --single-version-externally-managed install_data
+[0.706s] running egg_info
+[0.706s] creating ../build/rl_detect/rl_detect.egg-info
+[0.707s] writing manifest file '../build/rl_detect/rl_detect.egg-info/SOURCES.txt'
+[0.708s] writing manifest file '../build/rl_detect/rl_detect.egg-info/SOURCES.txt'
+[0.708s] running build
+[0.708s] running build_py
+[0.708s] creating /home/rameez/ew_rs/src/build/rl_detect/build
+[0.708s] creating /home/rameez/ew_rs/src/build/rl_detect/build/lib
+[0.708s] creating /home/rameez/ew_rs/src/build/rl_detect/build/lib/include
+[0.708s] copying include/__init__.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/include
+[0.708s] creating /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.708s] copying rl_detect/intel_pub2.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.708s] copying rl_detect/__init__.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.708s] copying rl_detect/intel_sub.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.709s] copying rl_detect/intel_sub copy.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.709s] copying rl_detect/intel_yolo.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.709s] copying rl_detect/intel_pub.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/rl_detect
+[0.709s] creating /home/rameez/ew_rs/src/build/rl_detect/build/lib/include/yoloworld
+[0.709s] copying include/yoloworld/DetectionDrawer.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/include/yoloworld
+[0.709s] copying include/yoloworld/YOLOWorld.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/include/yoloworld
+[0.709s] copying include/yoloworld/ModelExporter.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/include/yoloworld
+[0.709s] copying include/yoloworld/nms.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/include/yoloworld
+[0.709s] copying include/yoloworld/__init__.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/include/yoloworld
+[0.709s] copying include/yoloworld/TextEmbedder.py -> /home/rameez/ew_rs/src/build/rl_detect/build/lib/include/yoloworld
+[0.709s] running install
+[0.710s] running install_lib
+[0.711s] creating /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/include
+[0.711s] creating /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/include/yoloworld
+[0.711s] creating /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/rl_detect
+[0.711s] byte-compiling /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/include/yoloworld/DetectionDrawer.py to DetectionDrawer.cpython-310.pyc
+[0.712s] byte-compiling /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/include/yoloworld/YOLOWorld.py to YOLOWorld.cpython-310.pyc
+[0.713s] byte-compiling /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/include/yoloworld/ModelExporter.py to ModelExporter.cpython-310.pyc
+[0.713s] byte-compiling /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/include/yoloworld/nms.py to nms.cpython-310.pyc
+[0.713s] byte-compiling /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/include/yoloworld/__init__.py to __init__.cpython-310.pyc
+[0.713s] byte-compiling /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/include/yoloworld/TextEmbedder.py to TextEmbedder.cpython-310.pyc
+[0.714s] byte-compiling /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/include/__init__.py to __init__.cpython-310.pyc
+[0.714s] byte-compiling /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/rl_detect/intel_pub2.py to intel_pub2.cpython-310.pyc
+[0.714s] byte-compiling /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/rl_detect/__init__.py to __init__.cpython-310.pyc
+[0.714s] byte-compiling /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/rl_detect/intel_sub.py to intel_sub.cpython-310.pyc
+[0.714s] byte-compiling /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/rl_detect/intel_sub copy.py to intel_sub copy.cpython-310.pyc
+[0.715s] byte-compiling /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/rl_detect/intel_yolo.py to intel_yolo.cpython-310.pyc
+[0.715s] byte-compiling /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/rl_detect/intel_pub.py to intel_pub.cpython-310.pyc
+[0.715s] running install_data
+[0.715s] creating /home/rameez/ew_rs/src/install/rl_detect/share/ament_index
+[0.716s] creating /home/rameez/ew_rs/src/install/rl_detect/share/ament_index/resource_index
+[0.716s] creating /home/rameez/ew_rs/src/install/rl_detect/share/ament_index/resource_index/packages
+[0.716s] copying resource/rl_detect -> /home/rameez/ew_rs/src/install/rl_detect/share/ament_index/resource_index/packages
+[0.716s] copying package.xml -> /home/rameez/ew_rs/src/install/rl_detect/share/rl_detect
+[0.716s] running install_egg_info
+[0.717s] Copying ../build/rl_detect/rl_detect.egg-info to /home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages/rl_detect-0.0.0-py3.10.egg-info
+[0.717s] running install_scripts
+[0.730s] writing list of installed files to '/home/rameez/ew_rs/src/build/rl_detect/install.log'
+[0.747s] Invoked command in '/home/rameez/ew_rs/src/rl_detect' returned '0': CONDA_PROMPT_MODIFIER=(yworld) PYTHONPATH=/home/rameez/ew_rs/src/build/rl_detect/prefix_override:/home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages:${PYTHONPATH} /home/rameez/miniconda3/envs/yworld/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rl_detect build --build-base /home/rameez/ew_rs/src/build/rl_detect/build install --record /home/rameez/ew_rs/src/build/rl_detect/install.log --single-version-externally-managed install_data
