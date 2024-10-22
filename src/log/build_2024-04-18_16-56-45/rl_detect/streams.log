@@ -1,9 +1,0 @@
-[0.382s] Invoking command in '/home/rameez/ew_rs/src/build/rl_detect': CONDA_PROMPT_MODIFIER=(yworld) PYTHONPATH=/home/rameez/ew_rs/src/build/rl_detect/prefix_override:/home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages:${PYTHONPATH} /home/rameez/miniconda3/envs/yworld/bin/python -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rameez/ew_rs/src/build/rl_detect/build --no-deps symlink_data
-[0.565s] running develop
-[0.565s] /home/rameez/miniconda3/envs/yworld/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
-[0.566s]   warnings.warn(
-[0.645s] running egg_info
-[0.647s] writing manifest file 'rl_detect.egg-info/SOURCES.txt'
-[0.648s] running build_ext
-[0.649s] running symlink_data
-[0.667s] Invoked command in '/home/rameez/ew_rs/src/build/rl_detect' returned '0': CONDA_PROMPT_MODIFIER=(yworld) PYTHONPATH=/home/rameez/ew_rs/src/build/rl_detect/prefix_override:/home/rameez/ew_rs/src/install/rl_detect/lib/python3.10/site-packages:${PYTHONPATH} /home/rameez/miniconda3/envs/yworld/bin/python -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rameez/ew_rs/src/build/rl_detect/build --no-deps symlink_data

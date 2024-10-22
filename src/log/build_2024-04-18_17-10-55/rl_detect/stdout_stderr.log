@@ -1,7 +1,0 @@
-running develop
-/home/rameez/miniconda3/envs/yworld/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
-  warnings.warn(
-running egg_info
-writing manifest file 'rl_detect.egg-info/SOURCES.txt'
-running build_ext
-running symlink_data

@@ -1,8 +1,0 @@
-opencv-python==4.8.0.76
-opencv-python-headless==4.9.0.80
-numpy==1.25.2
-pyrealsense2==2.54.2.5684
-ultralytics==8.2.10
-open3d==0.18.0
-scipy==1.13.0
-colcon-ros

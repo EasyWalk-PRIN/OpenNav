@@ -1,0 +1,14 @@
+build/
+log/
+install/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+.env
+.venv
+.idea/
+.vscode/
+src/rl_detect/scripts/intel_yolo_3dbbox_node2 copy.py
