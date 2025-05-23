@@ -86,10 +86,6 @@ and Polato, Anna
 and Pasti, Francesco
 and Tonin, Luca
 and Vascon, Sebastiano",
-editor="Del Bue, Alessio
-and Canton, Cristian
-and Pont-Tuset, Jordi
-and Tommasi, Tatiana",
 title="OpenNav: Efficient Open Vocabulary 3D Object Detection for Smart Wheelchair Navigation",
 booktitle="Computer Vision -- ECCV 2024 Workshops",
 year="2025",
