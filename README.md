@@ -1,6 +1,6 @@
 # OpenNav: Efficient Open Vocabulary 3D Object Detection for Smart Wheelchair Navigation
 Official code for the OpenNav paper. ACVR Workshop at ECCV'24
-The official implementation of the **Twelfth International Workshop on Assistive Computer Vision and Robotics** paper [**OpenNav: Efficient Open Vocabulary 3D Object Detection for Smart Wheelchair Navigation**](https://arxiv.org/abs/2408.13936).
+The official implementation of the **Twelfth International Workshop on Assistive Computer Vision and Robotics** paper [**OpenNav: Efficient Open Vocabulary 3D Object Detection for Smart Wheelchair Navigation**](https://link.springer.com/chapter/10.1007/978-3-031-92591-7_23).
 
 ![pipeline](assets/pipeline.jpg)
 
@@ -79,12 +79,23 @@ src/rl_detect_bringup/launch/rl_detect_launch.py
 
 ## Citation
 ```
-@article{Rahman2024OpenNavEO,
-  title={OpenNav: Efficient Open Vocabulary 3D Object Detection for Smart Wheelchair Navigation},
-  author={Muhammad Rameez Ur Rahman and Piero Simonetto and Anna Polato and Francesco Pasti and Luca Tonin and Sebastiano Vascon},
-  journal={ArXiv},
-  year={2024},
-  volume={abs/2408.13936},
-  url={https://api.semanticscholar.org/CorpusID:271956865}
+@InProceedings{10.1007/978-3-031-92591-7_23,
+author="Rahman, Muhammad Rameez ur
+and Simonetto, Piero
+and Polato, Anna
+and Pasti, Francesco
+and Tonin, Luca
+and Vascon, Sebastiano",
+editor="Del Bue, Alessio
+and Canton, Cristian
+and Pont-Tuset, Jordi
+and Tommasi, Tatiana",
+title="OpenNav: Efficient Open Vocabulary 3D Object Detection for Smart Wheelchair Navigation",
+booktitle="Computer Vision -- ECCV 2024 Workshops",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="372--387",
+isbn="978-3-031-92591-7"
 }
 ```
