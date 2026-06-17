@@ -2,6 +2,12 @@
 Official code for the OpenNav paper. ACVR Workshop at ECCV'24
 The official implementation of the **Twelfth International Workshop on Assistive Computer Vision and Robotics** paper [**OpenNav: Efficient Open Vocabulary 3D Object Detection for Smart Wheelchair Navigation**](https://link.springer.com/chapter/10.1007/978-3-031-92591-7_23).
 
+> **Note:** Development of this project has continued in the **SocialNav** repository, which integrates several advanced modules including **Group Detection**, **Trajectory Forecasting**, and **Person Recognition**. The latest version can be found at:
+>
+> https://github.com/ram95d/SocialNav
+>
+> This repository is maintained primarily for reference and compatibility, while new features and improvements are developed in SocialNav.
+
 ![pipeline](assets/pipeline.jpg)
 
 The method is tested for ROS2 Humble on Ubuntu 22.04 with IntelRealsense D455 camera
